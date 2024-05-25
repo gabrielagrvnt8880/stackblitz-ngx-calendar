@@ -1,0 +1,29 @@
+.month-year-controls-container {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  span.month-year {
+    font-weight: 700;
+    font-size: large;
+  }
+  .fill-remaining-space {
+    flex: 1 1;
+  }
+
+  .calendar-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    button {
+      cursor: pointer;
+      border-radius: 8px;
+      border: 1px solid #f0f0fd;
+      background-color: white;
+      height: 50px;
+      width: 50px;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.calendar-month-grid-item {
+  height: 100px;
+  position: relative;
+  border: 1px solid #f0f0fd; // Simulate border with shadow
+  span {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: small;
+    color: #f0f0fd;
+
+    &.active {
+      color: #4e3b92;
+    }
+  }
+}

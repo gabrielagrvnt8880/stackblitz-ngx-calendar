@@ -1,0 +1,10 @@
+<p>view selector</p>
+<div class="month-year-controls-container">
+  <span class="month-year">{{ monthYear }}</span>
+  <span class="fill-remaining-space"></span>
+  <div class="calendar-controls">
+    <button (click)="selectMonth(-1)">prev</button>
+    <button (click)="selectMonth(1)">next</button>
+  </div>
+</div>
+<calendar-month-grid></calendar-month-grid>

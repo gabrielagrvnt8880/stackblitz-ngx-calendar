@@ -1,0 +1,15 @@
+<div class="calendar-month-grid-container">
+  <div class="calendar-month-grid-week-row">
+    <div class="week-row-item" *ngFor="let row of weekRow">
+      {{ row.name }}
+    </div>
+  </div>
+  <div class="calendar-grid-month-item-row-container">
+    <calendar-month-grid-item
+      *ngFor="let item of monthDates"
+      [monthDate]="item.date"
+      [active]="item.active"
+    >
+    </calendar-month-grid-item>
+  </div>
+</div>
